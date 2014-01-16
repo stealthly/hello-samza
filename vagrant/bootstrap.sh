@@ -26,7 +26,7 @@ apt-get -y install git vim wget screen curl
 export JAVA_HOME=/usr
 
 su vagrant -c "touch ~/.bashrc"
-su vagrant -c "export JAVA_HOME=/usr' >> ~/.bashrc"
+su vagrant -c "export 'JAVA_HOME=/usr' >> ~/.bashrc"
 
 cd /tmp
 wget http://apache.spinellicreations.com/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz
